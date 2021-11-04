@@ -11,8 +11,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - CinemaCamera
+  - Player
   - 
   - 
   - 
@@ -49,4 +49,7 @@ TagManager:
     locked: 0
   - name: Breakable
     uniqueID: 3909869569
+    locked: 0
+  - name: Player
+    uniqueID: 2963327577
     locked: 0
