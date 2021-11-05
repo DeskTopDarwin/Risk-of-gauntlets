@@ -4227,7 +4227,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3663864, y: 1.9999449, z: -10}
+  m_LocalPosition: {x: 2.5675335, y: 1.999887, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -6017,20 +6017,20 @@ MonoBehaviour:
       - m_Target: {fileID: 1546358526}
         m_TargetAssemblyTypeName: BombInventory, Assembly-CSharp
         m_MethodName: DropBomb
-        m_Mode: 0
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 0
+          m_BoolArgument: 1
         m_CallState: 2
   up: 119
   down: 115
   left: 97
   right: 100
-  DropBomb: 32
+  space: 32
 --- !u!114 &1546358525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6056,11 +6056,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42964181ab8d66a4fa4262f8d67b59b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bombsInInventory:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  bombPrefabResource: {fileID: 2219125995652384848, guid: 903566779cbbb584ab013aea29a95b60, type: 3}
+  bombsInInventory: []
   bombsPlaced: []
+  maxAmmo: 3
 --- !u!1 &1642298011
 GameObject:
   m_ObjectHideFlags: 0
