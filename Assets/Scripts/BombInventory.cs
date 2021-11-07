@@ -45,13 +45,16 @@ public class BombInventory : MonoBehaviour
         }
     }
 
-    public void addBomb(bool addBomb)
+    public void returnBomb(Bomb bomb)
     {
-        if (addBomb)
-        {
-            bombsPlaced[(bombsPlaced.Count - 1) - (bombsPlaced.Count - 1)].gameObject.SetActive(false);
-            bombsInInventory.Add(bombsPlaced[(bombsPlaced.Count - 1) - (bombsPlaced.Count - 1)]);
-            bombsPlaced.Remove(bombsPlaced[(bombsPlaced.Count - 1) - (bombsPlaced.Count - 1)]);
-        }
+        //if (addBomb)
+        //{
+        //    bombsPlaced[(bombsPlaced.Count - 1) - (bombsPlaced.Count - 1)].gameObject.SetActive(false);
+        //    bombsInInventory.Add(bombsPlaced[(bombsPlaced.Count - 1) - (bombsPlaced.Count - 1)]);
+        //    bombsPlaced.Remove(bombsPlaced[(bombsPlaced.Count - 1) - (bombsPlaced.Count - 1)]);
+        //}
+        //bombsPlaced.FindIndex<bomb>
+        bomb.gameObject.SetActive(false);
+        bombsInInventory.Add(bomb);
     }
 }
