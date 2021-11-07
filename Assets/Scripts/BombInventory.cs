@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class BombInventory : MonoBehaviour
 {
+    public UnityEvent returnBomb;
+
     public GameObject bombPrefabResource;
     public List<Bomb> bombsInInventory = new List<Bomb>();
     public List<Bomb> bombsPlaced;
@@ -45,7 +48,7 @@ public class BombInventory : MonoBehaviour
         }
     }
 
-    public void returnBomb(Bomb bomb)
+    public void returnBombToInventory(Bomb bomb)
     {
         //if (addBomb)
         //{
@@ -53,8 +56,9 @@ public class BombInventory : MonoBehaviour
         //    bombsInInventory.Add(bombsPlaced[(bombsPlaced.Count - 1) - (bombsPlaced.Count - 1)]);
         //    bombsPlaced.Remove(bombsPlaced[(bombsPlaced.Count - 1) - (bombsPlaced.Count - 1)]);
         //}
-        //bombsPlaced.FindIndex<bomb>
+        int index = bombsPlaced.IndexOf(bomb);
         bomb.gameObject.SetActive(false);
-        bombsInInventory.Add(bomb);
+        bombsInInventory.Add(bombsPlaced[index]);
+        bombsPlaced.Remove(bomb);
     }
 }
