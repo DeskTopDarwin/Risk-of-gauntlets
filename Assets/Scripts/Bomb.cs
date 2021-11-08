@@ -6,8 +6,9 @@ using UnityEngine.Events;
 
 enum BombState
 {
-    Waiting,
-    Exploding
+    INACTIVE,
+    COUNTDOWN,
+    EXPLOSION
 }
 
 public class Bomb : MonoBehaviour
@@ -15,10 +16,11 @@ public class Bomb : MonoBehaviour
 
     public UnityEvent<Bomb> explosion;
     public BombInventory bombInventory;
+    public float timerLenght = 3;
+    public float timerEnd;
     
     Collider2D collid;
-    //BombState bombState;
-    float countDown = 3;
+    BombState bombState;
     
     
     // Start is called before the first frame update
@@ -26,33 +28,45 @@ public class Bomb : MonoBehaviour
     {
         explosion.AddListener(bombInventory.returnBombToInventory);
         collid = GetComponent<BoxCollider2D>();
+        bombState = BombState.INACTIVE;
+    }
+
+    void StartTimer()
+    {
+        timerEnd = Time.time + timerLenght;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //switch (bombState)
-        //{
-        //    case BombState.Waiting:
-        //        
-        //        break;
-        //    case BombState.Exploding:
-        //
-        //        break;
-        //    default:
-        //        break;
-        //}
-
-
-        if(gameObject.activeSelf)
+        switch (bombState)
         {
-            countDown -= Time.deltaTime;
-            if(countDown <= 0)
-            {
-                explosion?.Invoke(this);
+            case BombState.INACTIVE:
+                if (gameObject.activeSelf)
+                {
+                    StartTimer();
+                    bombState = BombState.COUNTDOWN;
+                }
+
+                    break;
+            case BombState.COUNTDOWN:
+                if (Time.time >= timerEnd)
+                {
+                    timerEnd = float.MaxValue;
+                    bombState = BombState.EXPLOSION;
+                }
+
+                break;
+            case BombState.EXPLOSION:
+
                 collid.isTrigger = true;
-                countDown = 3;
-            }
+                explosion?.Invoke(this);
+                bombState = BombState.INACTIVE;
+
+
+                break;
+            default:
+                break;
         }
     }
     
