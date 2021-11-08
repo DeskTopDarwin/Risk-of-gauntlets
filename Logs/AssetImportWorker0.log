@@ -15,11 +15,11 @@ D:/unity/unity projects/Risk-of-gauntlets
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55969
+51860
 Successfully changed project path to: D:/unity/unity projects/Risk-of-gauntlets
 D:/unity/unity projects/Risk-of-gauntlets
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 41.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.21f1 (a38c86f6690f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Resources/UnitySubsystems
@@ -35,76 +35,185 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002057 seconds.
+Registered in 0.001998 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 42.74 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.956 seconds
+- Completed reload, in  1.014 seconds
 Domain Reload Profiling:
-	ReloadAssembly (956ms)
+	ReloadAssembly (1014ms)
 		BeginReloadAssembly (45ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (383ms)
+		EndReloadAssembly (427ms)
 			LoadAssemblies (43ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (128ms)
+			SetupTypeCache (147ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (149ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (159ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (43ms)
-				BeforeProcessingInitializeOnLoad (7ms)
+				BeforeProcessingInitializeOnLoad (15ms)
 				ProcessInitializeOnLoadAttributes (70ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003163 seconds.
+Registered in 0.003247 seconds.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/18/1893bc00f6fee305e100e7c5dac3571c'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/80/80b75e9cf01de951e439a461499e156e'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/d7/d7356efc24cc232801c0b613b6467fc3'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/c6/c625a3c72ef0ba1ce8a79c154e5ff952'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/b4/b4f1fbfeac21ff0e9d50a8e7bf54e307'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/64/64d3528af16126da0a5b551b55448bd9'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/cc/cc1c3c3cc0d8cbb848b89932652f093e'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/3e/3ecdf5fee2d7499c14aac65828e6eeda'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/b0/b01b984f20d165f7006b827194f5fd67'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/65/651003c9b34299f09d7206c0f8cd1f60'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/a7/a7e76d8c340a23b4e16478366e645605'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/e0/e0e49ff904ec3a84452b19c568ef687c'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/c7/c712d7342d282035e36c6c4cc5ed299c'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/76/762d833818b88b744b4f90041b88a9bc'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/fa/fa54f8d995f4258446cb64776e4ac5db'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/17/17da73b5bfda6c7e6b196a6392984f40'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/d8/d8cc2fdf08d18bf0af72dd6ca48dfd93'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/d7/d72c5a1ffb353e3542e825a5f089d503'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/0b/0b922d9a4dad5c351ea421470854e243'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/b0/b07eaa84702c9adeae32b5a44c146fc3'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/59/59da7d00819e62f51c364f08add61206'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/38/38606b01d6ec66ae8025ef4cac53a5c0'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/0b/0b8108dd89d987e6929273c8b052b21b'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/7b/7b5c3790fc827032c3929fdca10afbcc'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/57/57b378c61abc3c0d276cde155c30b1c9'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/11/11e110f60077471fb07ab40ef006750d'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/b3/b34f938dd8757b6cb70b9d60a6a9bff8'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/f6/f6beb2b80a66fd9f27797b39c61fbffc'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/f5/f5c4cd473de44cab9e1e3aeb79c7ec1f'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/ed/edd78e97eb81fecd919d8dff9a4cfc5e'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/2c/2c79cd8c40e85d5c154b804b7d360057'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/85/8535a3e3e8e6ece63071a44402ddb2aa'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/8c/8cfd20272b8644bdcb775fb4c7842ad9'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/a4/a4366cb3fcc8713f2c6a25076cc67034'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/cc/cc3b244a5e4360e1917d03da9480bd24'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/7e/7e1053fe4c4e2e8c488669aba9d31024'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/e6/e664ccf4aa9f82a3aeb47f006f0f0c81'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/34/3482e9c6a0dc4f2b0d4babf081845a60'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/e0/e0e0cca29f276dea8dfc97fc4bc32fc5'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/4b/4b848a826177cb37738a18f8654997b7'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/65/65cc312f0c82d5bcadef7ea4dca3d87b'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/c6/c65d1d89110e8a26d9b8f15c8cdf8b96'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/fe/fe3dea5a4163dba02c6d1a779c2a17f9'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/0e/0e10d52ac1e15e827ce8d498967ab3f6'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/7b/7ba0d046686b7b0274fc98574f94bc2a'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/20/20ee190be5e25d4fc1b5614a5a28581b'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/f2/f244eeb24e3f81dcc487e5c7fead2c7e'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/58/5835509ae3ca6beaed882de27e0fda9f'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/1e/1e8da1aeae50df067adba9c96a9605e0'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/c4/c4ce35ff442711f57640c3688d2c2c5a'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/c5/c5fbf8ba36167b48d44db57ee54a6c0e'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/1e/1edc5248dd0cef1dd27f8908eb61b3f4'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/72/72583764016cd5301df30518961ace10'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/e9/e9f5d3d75ced842d0a9e8b7eb925d0af'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/a8/a8ea2f1d4b9312a0e2824576eb19b7c9'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/29/2970b9db3b84d128811e53edf26b1914'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/80/80fc832169a67c84d3b1d65c84bd3585'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/fb/fbc8401a269552225ecf71b5a02267a7'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/4d/4d242621f9a8875d31beb1c862ef385c'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/b0/b0d4cf7d63d929165006fd645b75cc43'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/db/db978388953e0b9f48457184011d7ae4'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/1f/1fbdc5605a27b4a1ec53251d8c92489d'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/9d/9d4f93b1d149c2824d6a8ff18ca09ca5'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/22/2209539c8c558ff144dcedff834b2bf5'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/9c/9c5eb2cbbb647c986444310bef66a8a8'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/14/143f76ee6a746040abefdec977b95e55'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/51/5198211902d79d69d2989dac42d620a4'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/81/81a3616c6f6dbca6d6f5e7fdda6291da'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/7f/7fabfa844740a93a088d568d3bbee4e3'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/37/375a738e45455c3ea611be6bd720188a'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/dd/ddb56a8cd18758052ab45b2b43337e4f'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/30/308f732158628213adeb625a130f1178'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/94/94131d3dfda0845e9f6c067e6e134424'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/40/4004768e2d02276947e96be1edb2e10b'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/52/52ac04b8fee146266c306f2e92c847dd'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/a7/a73f3c814af912328cd5c1512f7633b9'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/7c/7cab0819862caa3b49bd001e460d15f7'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/66/66c73af4bcc9e654afef4a5a6ddaed69'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/12/12ae39d27b0cb2d48109e0692618e7a4'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/4e/4ee3d68316e7aab3aae184d027f07f38'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/28/28e67a2b85079fff5f0dc3f0efcb1c04'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/67/6738600d81cc21b7e403fda640dae1d0'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/d7/d7d8666021d9155e833808e84ff239c9'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/84/84b20662eb47d3f91694ca531dee6cc5'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/ff/ff66eeeac10dd17810076e51ec573ea4'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/c7/c7b0baf60760a6a3f381b97eed78d708'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/d2/d2ca59191de834149f7bec99326a7caa'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/d7/d7f27b020174be1106b583c37afd7467'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/30/3029f3b4ebd77865195a030f4f98bd2d'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/69/69d611e1ca8c9cd06617bb89e2d95d35'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/f7/f7bc76c117c373f640d5caa90f26fd6c'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/68/68b569f13d561cc65b25634adc94f8c8'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/bd/bda915ea7680d44f04c7900efc47d4f8'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/52/52e3c4019b67f73a3ef6fc12845e2182'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/be/be7cf1088e523327518f6ea2983b16b4'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/39/399a0e00712b9710da48788b39e4b4aa'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/13/13e88461f864d926b2c4ae562361fab9'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/da/da4abbce02c57a238aa39b1572d8e0a9'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/ff/ffccea350927d524842939814b18ba46'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/b9/b9fbcfe53ca3aac311118716230a0a55'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/3a/3a3e0eab5839b58671f03dc58f6a1356'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/55/559a9816396326a9c25dd16fc4297b6e'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/80/800f684bcee624b2c16ecbbd9fb3c28d'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/a7/a760a401628ba3a67ba182193289e6eb'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/a3/a3b5171b66071bcead272af8c21f1cc8'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/c2/c2524e029e5e3d94e1cd6670379c4234'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/e4/e46afee90843b0666a3a9dfa7c5eed7e'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/0f/0f2f72bdb6b118b6e565832f21a4eb4b'. File may be corrupted or was serialized with a newer version of Unity.
+Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/e3/e37f1f3f950ec3138453540121813d56'. File may be corrupted or was serialized with a newer version of Unity.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 42.31 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.974 seconds
+- Completed reload, in  0.763 seconds
 Domain Reload Profiling:
-	ReloadAssembly (974ms)
-		BeginReloadAssembly (125ms)
+	ReloadAssembly (764ms)
+		BeginReloadAssembly (130ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (794ms)
-			LoadAssemblies (75ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (576ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (257ms)
+			SetupTypeCache (208ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (310ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (193ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (42ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (80ms)
+				ProcessInitializeOnLoadMethodAttributes (3ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -112,15 +221,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
 Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2334 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.6 MB.
-System memory in use after: 100.8 MB.
+Unloading 2224 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.2 MB.
+System memory in use after: 96.3 MB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2767.
-Total: 3.401700 ms (FindLiveObjects: 0.250900 ms CreateObjectMapping: 0.060300 ms MarkObjects: 3.023200 ms  DeleteObjects: 0.066500 ms)
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2647.
+Total: 2.690800 ms (FindLiveObjects: 0.237500 ms CreateObjectMapping: 0.053700 ms MarkObjects: 2.273300 ms  DeleteObjects: 0.125300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,733 +243,65 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/BombInventory.cs
-  artifactKey: Guid(42964181ab8d66a4fa4262f8d67b59b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/BombInventory.cs using Guid(42964181ab8d66a4fa4262f8d67b59b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d242dcd8014752bc32fa6eab4f89a33') in 0.018790 seconds 
-  Import took 0.023463 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003229 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.903 seconds
-Domain Reload Profiling:
-	ReloadAssembly (904ms)
-		BeginReloadAssembly (116ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (725ms)
-			LoadAssemblies (79ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (269ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (254ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (182ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2321 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.9 MB.
-System memory in use after: 100.1 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2769.
-Total: 3.095400 ms (FindLiveObjects: 0.240000 ms CreateObjectMapping: 0.063200 ms MarkObjects: 2.776200 ms  DeleteObjects: 0.015200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 564.006009 seconds.
-  path: Assets/Scripts/BombInventory.cs
-  artifactKey: Guid(42964181ab8d66a4fa4262f8d67b59b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/BombInventory.cs using Guid(42964181ab8d66a4fa4262f8d67b59b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1edff0d0df21a4e5578f7bc95328813c') in 0.005478 seconds 
-  Import took 0.009874 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003599 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.877 seconds
-Domain Reload Profiling:
-	ReloadAssembly (877ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (712ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (254ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (258ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (185ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2321 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.9 MB.
-System memory in use after: 100.2 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2771.
-Total: 3.123800 ms (FindLiveObjects: 0.248300 ms CreateObjectMapping: 0.059300 ms MarkObjects: 2.800500 ms  DeleteObjects: 0.014500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 14.274704 seconds.
-  path: Assets/Scripts/BombInventory.cs
-  artifactKey: Guid(42964181ab8d66a4fa4262f8d67b59b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/BombInventory.cs using Guid(42964181ab8d66a4fa4262f8d67b59b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10b6949c1f02d9a2c0e24a7857a21178') in 0.005868 seconds 
-  Import took 0.009849 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003223 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.883 seconds
-Domain Reload Profiling:
-	ReloadAssembly (883ms)
-		BeginReloadAssembly (110ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (716ms)
-			LoadAssemblies (77ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (252ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (259ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (185ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2321 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.0 MB.
-System memory in use after: 100.2 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2773.
-Total: 3.110800 ms (FindLiveObjects: 0.255600 ms CreateObjectMapping: 0.065300 ms MarkObjects: 2.774500 ms  DeleteObjects: 0.014600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003191 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.887 seconds
-Domain Reload Profiling:
-	ReloadAssembly (887ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (721ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (257ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (261ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (186ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2321 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.0 MB.
-System memory in use after: 100.2 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2775.
-Total: 3.174600 ms (FindLiveObjects: 0.279500 ms CreateObjectMapping: 0.061400 ms MarkObjects: 2.815900 ms  DeleteObjects: 0.016700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003611 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.869 seconds
-Domain Reload Profiling:
-	ReloadAssembly (869ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (713ms)
-			LoadAssemblies (75ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (251ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (262ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (56ms)
-				ProcessInitializeOnLoadAttributes (185ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2321 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.9 MB.
-System memory in use after: 100.1 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2777.
-Total: 3.213800 ms (FindLiveObjects: 0.268200 ms CreateObjectMapping: 0.062300 ms MarkObjects: 2.866600 ms  DeleteObjects: 0.015800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004676 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.872 seconds
-Domain Reload Profiling:
-	ReloadAssembly (872ms)
-		BeginReloadAssembly (105ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (711ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (263ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (188ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2321 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.0 MB.
-System memory in use after: 100.2 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2779.
-Total: 3.420200 ms (FindLiveObjects: 0.283400 ms CreateObjectMapping: 0.063600 ms MarkObjects: 3.046500 ms  DeleteObjects: 0.025100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003228 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.868 seconds
-Domain Reload Profiling:
-	ReloadAssembly (868ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (700ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (245ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (254ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (182ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2321 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.0 MB.
-System memory in use after: 100.2 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2781.
-Total: 3.119400 ms (FindLiveObjects: 0.240300 ms CreateObjectMapping: 0.059200 ms MarkObjects: 2.803800 ms  DeleteObjects: 0.015300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 350.810380 seconds.
-  path: Assets/Scripts/BombInventory.cs
-  artifactKey: Guid(42964181ab8d66a4fa4262f8d67b59b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/BombInventory.cs using Guid(42964181ab8d66a4fa4262f8d67b59b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bee2298c518fe32c18850db07bf03b35') in 0.005424 seconds 
-  Import took 0.017435 seconds .
+  path: Assets/Resources/Prefabs/Bomb.prefab
+  artifactKey: Guid(903566779cbbb584ab013aea29a95b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Prefabs/Bomb.prefab using Guid(903566779cbbb584ab013aea29a95b60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Failed to load 'D:/unity/unity projects/Risk-of-gauntlets/Library/Artifacts/88/88eeb1ee135f60a44a00630976a07d7a'. File may be corrupted or was serialized with a newer version of Unity.
+ -> (artifact id: '4571e3f22a2090fe7ae41cb4639336dc') in 0.044243 seconds 
+  Import took 0.064456 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.539583 seconds.
-  path: Assets/Scripts/BombInventory.cs
-  artifactKey: Guid(42964181ab8d66a4fa4262f8d67b59b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/BombInventory.cs using Guid(42964181ab8d66a4fa4262f8d67b59b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a48c2be9a2f6b80295742995720f49') in 0.003377 seconds 
-  Import took 0.007468 seconds .
+  Time since last request: 2.418881 seconds.
+  path: Assets/Resources/Textures
+  artifactKey: Guid(d861d26789b5196488a8c1c05fa4227d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Textures using Guid(d861d26789b5196488a8c1c05fa4227d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c71d499b5fa14f9ba1b861537001d907') in 0.005444 seconds 
+  Import took 0.076266 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.147182 seconds.
+  Time since last request: 4.333136 seconds.
+  path: Assets/Scripts/Bomb.cs
+  artifactKey: Guid(0768a26334436034cb321eb86b004229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Bomb.cs using Guid(0768a26334436034cb321eb86b004229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33c86c2622583310321f6a18ff777d1f') in 0.006981 seconds 
+  Import took 0.166396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.713888 seconds.
+  path: Assets/Scripts/Bomb.cs
+  artifactKey: Guid(0768a26334436034cb321eb86b004229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Bomb.cs using Guid(0768a26334436034cb321eb86b004229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a6a40385f2f6c8ba35338ab392626c') in 0.003422 seconds 
+  Import took 0.155535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.930515 seconds.
+  path: Assets/Scripts/Bomb.cs
+  artifactKey: Guid(0768a26334436034cb321eb86b004229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Bomb.cs using Guid(0768a26334436034cb321eb86b004229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bca8705fe902c7229ecfbd51cd741f') in 0.002261 seconds 
+  Import took 0.172129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.947663 seconds.
+  path: Assets/Scripts/Bomb.cs
+  artifactKey: Guid(0768a26334436034cb321eb86b004229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Bomb.cs using Guid(0768a26334436034cb321eb86b004229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb83b96bc13d062e8dd6525a8792945') in 0.003272 seconds 
+  Import took 0.097260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2207.615069 seconds.
+  path: Assets/Scripts/Bomb.cs
+  artifactKey: Guid(0768a26334436034cb321eb86b004229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Bomb.cs using Guid(0768a26334436034cb321eb86b004229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30389688b2638ef82cd1df89b883e87a') in 0.020751 seconds 
+  Import took 0.047678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.284839 seconds.
   path: Assets/Scripts/BombInventory.cs
   artifactKey: Guid(42964181ab8d66a4fa4262f8d67b59b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/BombInventory.cs using Guid(42964181ab8d66a4fa4262f8d67b59b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f001364d9c839ddeba7a2444a4bfcf09') in 0.003735 seconds 
-  Import took 0.027977 seconds .
+Start importing Assets/Scripts/BombInventory.cs using Guid(42964181ab8d66a4fa4262f8d67b59b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45488dcda7aa2eb135c89fda5106efc6') in 0.006802 seconds 
+  Import took 0.010298 seconds .
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003304 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.864 seconds
-Domain Reload Profiling:
-	ReloadAssembly (864ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (706ms)
-			LoadAssemblies (79ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (249ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (253ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (53ms)
-				ProcessInitializeOnLoadAttributes (181ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2321 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.0 MB.
-System memory in use after: 100.2 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2783.
-Total: 3.298800 ms (FindLiveObjects: 0.247800 ms CreateObjectMapping: 0.059600 ms MarkObjects: 2.974300 ms  DeleteObjects: 0.016300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003641 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.859 seconds
-Domain Reload Profiling:
-	ReloadAssembly (859ms)
-		BeginReloadAssembly (105ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (698ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (252ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (180ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2321 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.0 MB.
-System memory in use after: 100.2 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2785.
-Total: 3.193300 ms (FindLiveObjects: 0.257800 ms CreateObjectMapping: 0.061100 ms MarkObjects: 2.857500 ms  DeleteObjects: 0.016000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003713 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.854 seconds
-Domain Reload Profiling:
-	ReloadAssembly (855ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (700ms)
-			LoadAssemblies (75ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (245ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (252ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (180ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2321 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 99.9 MB.
-System memory in use after: 100.1 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2787.
-Total: 3.138900 ms (FindLiveObjects: 0.246700 ms CreateObjectMapping: 0.059400 ms MarkObjects: 2.816600 ms  DeleteObjects: 0.015200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003236 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.879 seconds
-Domain Reload Profiling:
-	ReloadAssembly (879ms)
-		BeginReloadAssembly (95ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (729ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (248ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (277ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (200ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2321 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.0 MB.
-System memory in use after: 100.2 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2789.
-Total: 3.293000 ms (FindLiveObjects: 0.281800 ms CreateObjectMapping: 0.062600 ms MarkObjects: 2.931000 ms  DeleteObjects: 0.016900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003606 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.867 seconds
-Domain Reload Profiling:
-	ReloadAssembly (867ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (705ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (248ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (254ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (52ms)
-				ProcessInitializeOnLoadAttributes (182ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2321 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.0 MB.
-System memory in use after: 100.3 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2791.
-Total: 3.203200 ms (FindLiveObjects: 0.259700 ms CreateObjectMapping: 0.074100 ms MarkObjects: 2.852200 ms  DeleteObjects: 0.016200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file

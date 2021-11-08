@@ -17,7 +17,7 @@ public class BombInventory : MonoBehaviour
     {
         for (int i = 0; i < maxAmmo; i++)
         {
-            AddMaxAmmo();
+            AddAmmo();
         }
     }
 
@@ -29,18 +29,23 @@ public class BombInventory : MonoBehaviour
 
     public void AddMaxAmmo()
     {
+        maxAmmo++;
+        AddAmmo();
+    }
+
+    private void AddAmmo()
+    {
         GameObject newBomb = Instantiate(bombPrefabResource);
         Bomb bomb = newBomb.GetComponent<Bomb>();
         bomb.gameObject.SetActive(false);
         bombsInInventory.Add(bomb);
+        bomb.bombInventory = this;
     }
 
     public void DropBomb(bool dropBomb)
     {
         if (dropBomb && bombsInInventory.Count > 0)
         {
-            Debug.Log("drop bomb");
-
             bombsInInventory[bombsInInventory.Count - 1].gameObject.transform.position = transform.position;
             bombsInInventory[bombsInInventory.Count - 1].gameObject.SetActive(true);
             bombsPlaced.Add(bombsInInventory[bombsInInventory.Count - 1]);
@@ -60,5 +65,6 @@ public class BombInventory : MonoBehaviour
         bomb.gameObject.SetActive(false);
         bombsInInventory.Add(bombsPlaced[index]);
         bombsPlaced.Remove(bomb);
+        
     }
 }
