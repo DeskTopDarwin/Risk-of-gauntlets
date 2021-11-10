@@ -43,8 +43,7 @@ public class Movement : MonoBehaviour
    //}
 
     public void movement(Vector2 direction)
-    {
-        Debug.Log(direction);
+    { 
         rb.velocity = new Vector2(0, 0);
         //UpDown
         if (direction.y > 0.01f)

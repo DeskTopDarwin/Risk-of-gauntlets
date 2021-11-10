@@ -4227,7 +4227,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.3494167, y: 2.0000033, z: -10}
+  m_LocalPosition: {x: -3.5865726, y: 2.0000076, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -5875,6 +5875,7 @@ GameObject:
   - component: {fileID: 1546358524}
   - component: {fileID: 1546358523}
   - component: {fileID: 1546358526}
+  - component: {fileID: 1546358527}
   m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
@@ -6063,6 +6064,25 @@ MonoBehaviour:
   bombsInInventory: []
   bombsPlaced: []
   maxAmmo: 3
+--- !u!95 &1546358527
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546358519}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 891420010f3160743b21273fd7f3030b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1642298011
 GameObject:
   m_ObjectHideFlags: 0
@@ -8705,7 +8725,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1991201547}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.5, y: 5.538, z: -10}
+  m_LocalPosition: {x: -12.5, y: 5.519253, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 738886080}
